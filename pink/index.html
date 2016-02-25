@@ -9,79 +9,85 @@
 </head>
 <body>
 	<header class="header-page">
-		<div class="container">
+		<div class="nav-bar-wrapper">
 			<nav class="nav-bar">
-				<ul class="nav-bar_menu">
-					<li><a href="">PINK</a></li>
+				<ul class="nav-bar__menu">
+					<li><a href="" class="nav-bar__logotype">PINK</a></li>
 					<li><a href="">=</a></li>
 				</ul>
 			</nav>
-			<h1>Взгляните на жизньиначе!</h1>
-			<figure class="wrapper-image"><img src="img/" alt=""></figure>
-			<a href="" class="button-download"></a>
-			<ul>
-				<li><a href=""><img src="img/" alt=""></a></li>
-				<li><a href=""><img src="img/" alt=""></a></li>
-				<li><a href=""><img src="img/" alt=""></a></li>
-			</ul>
-			<p>Доступно для iPhone, iPad, Android, Windows phone, Mac OS, Windows 8</p>
 		</div>
+		<h1 class="header-page__titel-phrase">Взгляните на жизньиначе!</h1>
+		<figure class="wrapper-image"><img src="img/" alt="image phone in heand"></figure>
+			<a href="" class="button"></a>
+		<div class="social-menu-wrapper">	
+			<ul class="social-menu">
+				<li><a href="" class="social-menu__button"></a></li>
+				<li><a href="" class="social-menu__button"></a></li>
+				<li><a href="" class="social-menu__button"></a></li>
+			</ul>
+		</div>
+			<p class="description-text description-text--header-page">Доступно для iPhone, iPad, Android, Windows phone, Mac OS, Windows 8</p>
 	</header>
-	<mai class="main-page">
-		<div class="container">
-			<section class="main-page-content">
+	
+		
+			<section class="prodrome-page">
 				<h2>Устали от серости мегаполиса?</h2>
 				<h2>Нам есть, что вам предложить!</h2>
-				<article class="about-soft">
+				<section class="description-soft">
 					<h3>Поднимает настроение</h3>
 					<p>Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
 					<h3>Меняет мир вокруг</h3>
 					<p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
 					<h3>Заводит новых друзей</h3>
 					<p>Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
-				</article>
+				</section>
 				<figure class="wrapper-image"><img src="img/" alt=""></figure>
 			</section>
-			<section class="slider-block1">
-				<div class="slider-wrapper">
-					<div class="slide">
+
+
+			<section class="slider-reviews">
+				<div class="slider-reviews-wrapper">
+					<div class="slider-reviews__review">
 						<p>Николай Петров</p>
 						<p>«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>	
 					</div>
-					<div class="slide-control">
-						<a href="" class="slider_btn-control"></a>
-						<a href="" class="slider_btn-control"></a>
-						<a href="" class="slider_btn-control"></a>
+					<div class="slider-control-wrapper">
+						<ul class="slider-control-menu">
+							<li><a href="" class="slider__btn-control slider__btn-control--active"></a></li>
+							<li><a href="" class="slider__btn-control"></a></li>
+							<li><a href="" class="slider__btn-control"></a></li>
+						</ul>
 					</div>
 				</div>
 			</section>
-		</div>
-		<section class="sloder-block2">
-			<div class="slider-wrapper">
-				<div class="slide">
-					<header class="slide-head">
-						<div class="container">
-							<p>Стандарт</p>	
-							<p>3,99 USD</p>						
-						</div>	
+		
+		<section class="sloder-rates">
+			<div class="slider-rates-wrapper">
+				<div class="rate">
+					<header class="rate__head">
+						<p>Стандарт</p>	
+						<p>3,99 USD</p>						
 					</header>
-					<main class="main-slide">
-						<div class="container">
-							<p>Розовый фильтр</p>
-							<p>Смайлики</p>
-							<p>Комментарии</p>	
-						</div>
+					<main class="rate__main">
+						<p>Розовый фильтр</p>
+						<p>Смайлики</p>
+						<p>Комментарии</p>	
 					</main>			
 				</div>
-				<div class="slide-control">
-					<a href="" class="slider_btn-control"></a>
-					<a href="" class="slider_btn-control"></a>
-					<a href="" class="slider_btn-control"></a>
+				<div class="slider-control-wrapper">
+					<ul class="slider-control-menu">
+						<li><a href="" class="slider__btn-control"></a></li>
+						<li><a href="" class="slider__btn-control slider__btn-control--active"></a></li>
+						<li><a href="" class="slider__btn-control"></a></li>
+					</ul>
 				</div>
 			</div>
 		</section>
+
+
 		<section class="block-contacts">
-			<div class="container">
+			<div class="block-contacts-wrapper">
 				<h2>Остались вопросы? Свяжитесь с нами!</h2>
 				<p>Звоните:</p>
 				<p>8 (800) 1000 900</p>
@@ -91,9 +97,9 @@
 				<p>Санкт-Петербург, Невский проспект, д. 20</p>
 			</div>
 		</section>
-	</mai>
+	
 	<footer class="footer-page">
-		<figure>
+		<figure class="wrapper-image">
 			<img src="" alt="map">
 		</figure>
 	</footer>
