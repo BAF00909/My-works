@@ -1,0 +1,281 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-checkbox {
+    width: 23px;
+    height: 23px;
+    background-position: -5px -5px;
+}
+
+.sprite-checkbox_blocked {
+    width: 23px;
+    height: 23px;
+    background-position: -38px -5px;
+}
+
+.sprite-checkbox_checked {
+    width: 27px;
+    height: 23px;
+    background-position: -71px -5px;
+}
+
+.sprite-checkbox_checked_blocked {
+    width: 27px;
+    height: 23px;
+    background-position: -108px -5px;
+}
+
+.sprite-checkbox_checked_hover {
+    width: 27px;
+    height: 23px;
+    background-position: -145px -5px;
+}
+
+.sprite-checkbox_hover {
+    width: 23px;
+    height: 23px;
+    background-position: -182px -5px;
+}
+
+.sprite-icon_basket {
+    width: 17px;
+    height: 16px;
+    background-position: -215px -5px;
+}
+
+.sprite-icon_basket_active {
+    width: 17px;
+    height: 16px;
+    background-position: -215px -31px;
+}
+
+.sprite-icon_basket_focus {
+    width: 17px;
+    height: 16px;
+    background-position: -5px -57px;
+}
+
+.sprite-icon_basket_hover {
+    width: 17px;
+    height: 16px;
+    background-position: -32px -57px;
+}
+
+.sprite-icon_bookmark {
+    width: 14px;
+    height: 16px;
+    background-position: -59px -57px;
+}
+
+.sprite-icon_bookmark_active {
+    width: 14px;
+    height: 16px;
+    background-position: -83px -57px;
+}
+
+.sprite-icon_bookmark_focus {
+    width: 14px;
+    height: 16px;
+    background-position: -107px -57px;
+}
+
+.sprite-icon_bookmark_hover {
+    width: 14px;
+    height: 16px;
+    background-position: -131px -57px;
+}
+
+.sprite-icon_catalog_coast {
+    width: 20px;
+    height: 23px;
+    background-position: -155px -57px;
+}
+
+.sprite-icon_fb {
+    width: 42px;
+    height: 42px;
+    background-position: -185px -57px;
+}
+
+.sprite-icon_fb_active {
+    width: 42px;
+    height: 42px;
+    background-position: -5px -109px;
+}
+
+.sprite-icon_fb_hover {
+    width: 42px;
+    height: 42px;
+    background-position: -57px -109px;
+}
+
+.sprite-icon_home {
+    width: 15px;
+    height: 12px;
+    background-position: -109px -109px;
+}
+
+.sprite-icon_inst {
+    width: 42px;
+    height: 42px;
+    background-position: -134px -109px;
+}
+
+.sprite-icon_inst_active {
+    width: 42px;
+    height: 42px;
+    background-position: -186px -109px;
+}
+
+.sprite-icon_inst_hover {
+    width: 42px;
+    height: 42px;
+    background-position: -5px -161px;
+}
+
+.sprite-icon_left_slide {
+    width: 22px;
+    height: 40px;
+    background-position: -57px -161px;
+}
+
+.sprite-icon_login {
+    width: 20px;
+    height: 17px;
+    background-position: -89px -161px;
+}
+
+.sprite-icon_login_active {
+    width: 20px;
+    height: 17px;
+    background-position: -119px -161px;
+}
+
+.sprite-icon_login_hover {
+    width: 20px;
+    height: 17px;
+    background-position: -149px -161px;
+}
+
+.sprite-icon_phone {
+    width: 19px;
+    height: 19px;
+    background-position: -179px -161px;
+}
+
+.sprite-icon_right_slide {
+    width: 22px;
+    height: 40px;
+    background-position: -208px -161px;
+}
+
+.sprite-icon_search {
+    width: 17px;
+    height: 17px;
+    background-position: -57px -211px;
+}
+
+.sprite-icon_search_active {
+    width: 17px;
+    height: 17px;
+    background-position: -84px -211px;
+}
+
+.sprite-icon_search_focus {
+    width: 17px;
+    height: 17px;
+    background-position: -111px -211px;
+}
+
+.sprite-icon_search_hover {
+    width: 17px;
+    height: 17px;
+    background-position: -138px -211px;
+}
+
+.sprite-icon_slide_dots {
+    width: 10px;
+    height: 10px;
+    background-position: -165px -211px;
+}
+
+.sprite-icon_slide_dots_active {
+    width: 10px;
+    height: 10px;
+    background-position: -185px -211px;
+}
+
+.sprite-icon_user {
+    width: 20px;
+    height: 18px;
+    background-position: -205px -211px;
+}
+
+.sprite-icon_user_active {
+    width: 20px;
+    height: 18px;
+    background-position: -242px -5px;
+}
+
+.sprite-icon_user_hover {
+    width: 20px;
+    height: 18px;
+    background-position: -242px -33px;
+}
+
+.sprite-icon_vk {
+    width: 41px;
+    height: 42px;
+    background-position: -272px -5px;
+}
+
+.sprite-icon_vk_active {
+    width: 41px;
+    height: 42px;
+    background-position: -272px -57px;
+}
+
+.sprite-icon_vk_hover {
+    width: 41px;
+    height: 42px;
+    background-position: -238px -109px;
+}
+
+.sprite-radio {
+    width: 25px;
+    height: 25px;
+    background-position: -289px -109px;
+}
+
+.sprite-radio_blocked {
+    width: 25px;
+    height: 25px;
+    background-position: -289px -144px;
+}
+
+.sprite-radio_checked {
+    width: 25px;
+    height: 25px;
+    background-position: -240px -179px;
+}
+
+.sprite-radio_checked_blocked {
+    width: 25px;
+    height: 25px;
+    background-position: -275px -179px;
+}
+
+.sprite-radio_checked_hover {
+    width: 25px;
+    height: 25px;
+    background-position: -5px -214px;
+}
+
+.sprite-radio_hover {
+    width: 25px;
+    height: 25px;
+    background-position: -235px -214px;
+}

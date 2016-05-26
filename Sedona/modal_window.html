@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Поиск гостинниц</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="layout_center_container clearfix">
+        <header class="main_header clearfix">
+                <nav>
+                    <ul class="main_header_menu">
+                        <li><a href="index.html" class="active_page">Информация</a>
+                        </li>
+                        <li><a href="#">Фото и видео</a>
+                        </li>
+                        <li><a href="#">Карта штата</a>
+                        </li>
+                        <li><a href="catalog.html">Гостиницы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <figure class="logo">
+                    <a href="index.html">
+                        <img src="img/logo_Sedona.png" width="138" height="70" alt="Логотип Седоны">
+                    </a>
+                </figure>
+        </header>
+        
+  <div class="layout_container_center_modal no_js">
+        <form class="form_modal_window clearfix" action="url" method="get">
+      <div class="date">
+         <label for="date_in">Дата заезда:</label>
+          <input type="text" name="date_in" id="date_in" value="22 апреля 2015" required>
+      <div class="calendar"></div>
+      </div>
+      <div class="date">
+         <label for="date_out">Дата выезда:</label>
+         <input type="text" name="date_out" id="date_out" value="4 июля 2015">
+          <div class="calendar"></div>
+                                           </div>
+      <div class="old clearfix">
+          <label for="old">Взрослые:</label>
+          <input type="text" name="old" id="old" value="2">
+          <span class="plus">+</span>
+          <span class="minus">-</span>
+      </div>
+      <div class="young clearfix">
+         <label for="young">Дети:</label>
+          <input type="text" name="yang" id="young" value="0">
+          <span class="plus ">+</span>
+          <span class="minus ">-</span>
+      </div>
+      </form>
+      <div class="search_btn">
+         <a href="#" class="search_btn_modal">Найти</a>
+      </div>
+      </div>
+    
+            
+        <footer class="main_footer clearfix">
+            <div class="container clearfix">
+                <section class="footer_contacts">
+                    <a href="#">#visitSEDONA</a>
+                </section>
+
+                <section class="footer_social">
+                    <a href="#" class="social_btn social_btn_tw">TW</a>
+                    <a href="#" class="social_btn social_btn_fb">FB</a>
+                    <a href="#" class="social_btn social_btn_yout">YOUT</a>
+                </section>
+                <section class="footer_copyright">
+                    <p>Website by</p>
+                    <a href="https://htmlacademy.ru" class="btn btn_a">academy</a>
+                </section>
+            </div>
+        </footer>
+            
+    </div>
+</body>
+</html>

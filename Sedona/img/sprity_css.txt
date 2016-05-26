@@ -1,0 +1,119 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-calendar {
+    width: 21px;
+    height: 22px;
+    background-position: -5px -5px;
+}
+
+.sprite-calendar_down {
+    width: 21px;
+    height: 22px;
+    background-position: -5px -37px;
+}
+
+.sprite-calendar_hover {
+    width: 21px;
+    height: 22px;
+    background-position: -5px -69px;
+}
+
+.sprite-checkbox_checked {
+    width: 26px;
+    height: 22px;
+    background-position: -5px -101px;
+}
+
+.sprite-checkbox_point {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -133px;
+}
+
+.sprite-logo_academy {
+    width: 135px;
+    height: 33px;
+    background-position: -5px -163px;
+}
+
+.sprite-logo_academy_down {
+    width: 135px;
+    height: 33px;
+    background-position: -5px -206px;
+}
+
+.sprite-logo_academy_hover {
+    width: 135px;
+    height: 33px;
+    background-position: -5px -249px;
+}
+
+.sprite-slide {
+    width: 20px;
+    height: 23px;
+    background-position: -5px -292px;
+}
+
+.sprite-slide_down {
+    width: 20px;
+    height: 23px;
+    background-position: -5px -325px;
+}
+
+.sprite-social_fb {
+    width: 47px;
+    height: 48px;
+    background-position: -5px -358px;
+}
+
+.sprite-social_fb_down {
+    width: 47px;
+    height: 48px;
+    background-position: -5px -416px;
+}
+
+.sprite-social_fb_hover {
+    width: 47px;
+    height: 48px;
+    background-position: -5px -474px;
+}
+
+.sprite-social_tw {
+    width: 46px;
+    height: 48px;
+    background-position: -5px -532px;
+}
+
+.sprite-social_tw_down {
+    width: 46px;
+    height: 48px;
+    background-position: -5px -590px;
+}
+
+.sprite-social_tw_hover {
+    width: 46px;
+    height: 48px;
+    background-position: -5px -648px;
+}
+
+.sprite-social_yout {
+    width: 46px;
+    height: 48px;
+    background-position: -5px -706px;
+}
+
+.sprite-social_yout_down {
+    width: 46px;
+    height: 48px;
+    background-position: -5px -764px;
+}
+
+.sprite-social_yout_hover {
+    width: 46px;
+    height: 48px;
+    background-position: -5px -822px;
+}

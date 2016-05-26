@@ -1,0 +1,261 @@
+body{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+.globalContainer{
+    width: 1080px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #555;
+}
+h1{
+    font-size: 45px;
+    line-height: 50px;
+    color: #fff;
+}
+h2{
+    font-size: 45px;
+    line-height: 50px;
+    color: #000;
+}
+.titleText{
+    font-size: 22px;
+    line-height: 24px;
+    color: #000;
+}
+.headerPage{
+    background-color: #6451d5;
+    padding-bottom: 45px;
+}
+.headerPage p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #bcb3f2;
+}
+.mainMenu{
+    list-style: none;
+}
+.mainMenu li{
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+.logo{
+    margin-right: 100px;
+}
+.mainMenu a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    padding-right: 55px;
+}
+.mainMenu a:hover{
+    text-decoration: underline;
+}
+.mainMenu a:active{
+    color: #998fe1;
+    text-decoration: none;
+}
+nav{
+    margin-bottom: 60px;
+}
+.leftColumn{
+    width: 424px;
+    float: left;
+}
+.rightColumn{
+    width: 595px;
+    float: right;
+}
+.banner{
+    margin-left: -90px;
+}
+.button{
+    text-decoration: none;
+    display: block;
+    padding: 18px 10px;
+    width: 320px;
+    background-color: #382d78;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    margin-top: 55px;
+}
+.button:hover{
+    background-color: #32286c;
+}
+.button:active{
+    color: #8581a1;
+}
+.mainPage{
+    width: 100%;
+}
+.aboutServises{
+    width: 100%;
+    padding: 45px 0;
+    background-color: #efefef;
+}
+.itemServis{
+    width: 320px;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+.tableLessons{
+    border-collapse: collapse;
+    border: 2px solid #000;
+    margin-bottom: 72px;
+}
+.tableLessons td{
+    border: 1px solid #000;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000;
+    text-align: left;
+    padding: 32px 30px;
+    font-weight: bold;
+}
+.tableLessons td:first-child{
+    width: 287px;
+}
+.tableLessons td:nth-child(2){
+    width: 190px;
+}
+.tableLessons td:nth-child(3){
+    width: 542px;
+    padding: 0 32px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #404040;
+    font-weight: normal;
+}
+th{
+    border: 1px solid #000;
+    font-size: 18px;
+    line-height: 30px;
+    color: #404040;
+    padding: 6px 40px;
+    text-align: left;
+    background-color: #efefef;
+}
+.formLessons h2{
+    display: inline-block;
+    margin-right: 490px;
+    margin-bottom: 45px;
+}
+.subscribe{
+    background-color: #efefef;
+    padding-bottom: 71px;
+}
+#fio{
+    width: 490px;
+    padding: 10px 27px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #404040;
+    margin-bottom: 33px;
+    margin-left: 25px;
+}
+#fio:hover{
+    border-color: #7f7f7f;
+}
+#fio:focus{
+    border-color: #6451d5;
+}
+input[type='radio']{
+    margin-bottom: 33px;
+}
+#moreText{
+    width: 535px;
+    margin-bottom: 33px;
+    margin-right: 55px;
+    float: right;
+}
+.sex{
+    margin-right: 40px;
+}
+label{
+    text-align: left;
+}
+.leftColumnSubscribe{
+    width: 670px;
+    float: left;
+}
+.rightColumnSubscribe{
+    width: 320px;
+    float: right;
+    margin-top: -30px;
+}
+input[type='submit']{
+    width: 510px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #382d78;
+    border: none;
+    padding: 22px 0;
+    margin-left: 90px;
+}
+input[type='submit']:hover{
+    background-color: #32286c;
+}
+input[type='submit']:active{
+    color: #8581a1;
+}
+.footerPage{
+    background-color: #2a2546;
+    padding-top: 65px;
+    padding-bottom: 90px;
+}
+.blockAdress{
+    width: 320px;
+    float: left;
+}
+.blockAdress p{
+    color: #fff;
+}
+.blockAdress img{
+    margin-bottom: 70px;
+}
+.footerMenu ul{
+    display: inline-block;
+    list-style: none;
+}
+.footerMenu .titleLi{
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.footerMenu a{
+    display: block;
+    margin-bottom: 35px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #a39ebe;
+}
+.footerMenu a:hover{
+    text-decoration: underline;
+}
+.footerMenu a:active{
+    text-decoration: none;
+    color: #595472;
+}
+
